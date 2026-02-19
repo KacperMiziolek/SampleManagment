@@ -4,15 +4,12 @@
 ![Standard Library](https://img.shields.io/badge/STL-Vector%2FRegex-green)
 
 
-> **PL:** Aplikacja konsolowa w C++ do zarządzania bazą próbek, oferująca trwałość danych (zapis do pliku), zaawansowane wyszukiwanie (Regex) oraz ścisłą walidację danych wejściowych.
->
-> **EN:** A C++ console application for managing a sample database, featuring data persistence (file I/O), advanced searching (Regex), and robust input validation.
+A C++ console application for managing a sample database, featuring data persistence (file I/O), advanced searching (Regex), and robust input validation.
 
 ## 📋 About The Project
 
-This project allows users to manage a database of biological/material samples directly from the command line. Unlike simple student projects, this application focuses on **data integrity** and **usability**. It implements a robust validation system to ensure that dates and formats are correct before processing.
+This project allows users to manage a database of biological/material samples directly from the command line. It implements a robust validation system to ensure that dates and formats are correct before processing.
 
-It demonstrates proficiency in:
 *   **C++ Standard Library (STL):** Usage of vectors, strings, and streams.
 *   **Regular Expressions (`<regex>`):** For pattern matching in search and validation.
 *   **File I/O (`<fstream>`):** Implementing a custom parser to save and load state from text files.
@@ -30,7 +27,7 @@ It demonstrates proficiency in:
 
 *   **Language:** C++ (C++17 Standard)
 *   **Libraries:** `<iostream>`, `<vector>`, `<fstream>`, `<regex>`, `<string>`
-*   **IDE/Tools:** Visual Studio / VS Code / CLion
+*   **IDE/Tools:** VS Code
 
 ## ⚙️ Getting Started
 
