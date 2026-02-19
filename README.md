@@ -2,7 +2,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B17-blue)
 ![Standard Library](https://img.shields.io/badge/STL-Vector%2FRegex-green)
-![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)
+
 
 > **PL:** Aplikacja konsolowa w C++ do zarządzania bazą próbek, oferująca trwałość danych (zapis do pliku), zaawansowane wyszukiwanie (Regex) oraz ścisłą walidację danych wejściowych.
 >
