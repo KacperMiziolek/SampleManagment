@@ -1,35 +1,42 @@
-# Zarzadzanie Probkami (Sample Management)
+# Sample Management System (C++) 🧪📂
 
-## Opis projektu
+![C++](https://img.shields.io/badge/Language-C%2B%2B17-blue)
+![Standard Library](https://img.shields.io/badge/STL-Vector%2FRegex-green)
+![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)
 
-Ten projekt to aplikacja konsolowa w języku **C++**, umożliwiająca zarządzanie próbkami. Program pozwala użytkownikowi na dodawanie, edytowanie, usuwanie, wyszukiwanie oraz zapisywanie próbek do pliku. Dodatkowo obsługuje regex do wyszukiwania oraz walidację danych wejściowych.
+> **PL:** Aplikacja konsolowa w C++ do zarządzania bazą próbek, oferująca trwałość danych (zapis do pliku), zaawansowane wyszukiwanie (Regex) oraz ścisłą walidację danych wejściowych.
+>
+> **EN:** A C++ console application for managing a sample database, featuring data persistence (file I/O), advanced searching (Regex), and robust input validation.
 
-## Funkcjonalności
+## 📋 About The Project
 
-✅ Dodawanie nowych próbek.
-✅ Edytowanie istniejących próbek.
-✅ Usuwanie próbek.
-✅ Wyszukiwanie próbek (również za pomocą wyrażeń regularnych).
-✅ Zapisywanie i wczytywanie danych z pliku.
-✅ Obsługa formatu daty i walidacja wprowadzanych danych.
-✅ Intuicyjny interfejs w trybie tekstowym.
+This project allows users to manage a database of biological/material samples directly from the command line. Unlike simple student projects, this application focuses on **data integrity** and **usability**. It implements a robust validation system to ensure that dates and formats are correct before processing.
 
-## Wymagania
+It demonstrates proficiency in:
+*   **C++ Standard Library (STL):** Usage of vectors, strings, and streams.
+*   **Regular Expressions (`<regex>`):** For pattern matching in search and validation.
+*   **File I/O (`<fstream>`):** Implementing a custom parser to save and load state from text files.
+*   **Input Validation:** Preventing runtime errors by handling invalid user inputs gracefully.
 
-- **C++17** lub nowszy
-- Kompilator obsługujący standard C++ (np. g++, Clang, MSVC)
+## 🚀 Key Features
 
-## Instalacja i uruchomienie
+*   **CRUD Operations:** Create, Read, Update, and Delete sample records.
+*   **Advanced Search:** Filter samples using standard text or **Regular Expressions** (Regex).
+*   **Data Persistence:** Automatic saving and loading of data from `database.txt` (or custom files).
+*   **Date Validation:** Checks if the entered dates are logical and follow the correct format.
+*   **Robust Menu System:** Interactive CLI interface that handles bad inputs without crashing.
 
-1. **Sklonuj repozytorium**:
-2. **Skompiluj kod**:
-3. **Uruchom program**:
+## 🛠️ Tech Stack
 
-## Autor
+*   **Language:** C++ (C++17 Standard)
+*   **Libraries:** `<iostream>`, `<vector>`, `<fstream>`, `<regex>`, `<string>`
+*   **IDE/Tools:** Visual Studio / VS Code / CLion
 
-Kacper Miziołek
+## ⚙️ Getting Started
 
----
+To run this project, you need a C++ compiler (GCC, Clang, or MSVC).
 
-
-
+### 1. Clone the repository
+```bash
+git clone https://github.com/KacperMiziolek/SampleManagment.git
+cd SampleManagment
