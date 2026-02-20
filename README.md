@@ -1,4 +1,4 @@
-# Sample Management System (C++) 🧪📂
+# Sample Management System (C++)
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B17-blue)
 ![Standard Library](https://img.shields.io/badge/STL-Vector%2FRegex-green)
